@@ -2,10 +2,11 @@ name: Self Test - validation workflows
 
 on:
   push:
-    branches: [main]
+    branches: [main, feature/CCL-9533-patch]
   pull_request:
     branches:
       - main
+      - feature/CCL-9533-patch
 
 permissions:
   contents: read
